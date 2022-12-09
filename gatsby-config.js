@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Metafacture Blog`,
     author: {
-      name: `the Metafacture community`
+      name: `the Metafacture community`,
     },
     description: `A blog for the ETL toolkit Metafacture.`,
     siteUrl: `https://blog.metafacture.org/`,
@@ -52,7 +52,7 @@ module.exports = {
               ordered: false,
               fromHeading: 1,
               toHeading: 6,
-              className: "table-of-contents"
+              className: "table-of-contents",
             },
           },
           `gatsby-remark-autolink-headers`,
@@ -64,12 +64,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `ADD YOUR TRACKING ID HERE`,
-    //   },
-    // },
     {
       resolve: `gatsby-plugin-feed`,
       options: {
@@ -98,26 +92,23 @@ module.exports = {
                 })
               })
             },
-            query: `
-              {
-                allMarkdownRemark(
-                  sort: { order: DESC, fields: [frontmatter___date] },
-                ) {
-                  nodes {
-                    excerpt
-                    html
-                    fields {
-                      slug
-                    }
-                    frontmatter {
-                      title
-                      date
-                    }
+            query: `{
+              allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
+                nodes {
+                  excerpt
+                  html
+                  fields {
+                    slug
+                  }
+                  frontmatter {
+                    title
+                    date
                   }
                 }
               }
-            `,
+            }`,
             output: "/rss.xml",
+            title: "Metafacture RSS Feed",
           },
         ],
       },
@@ -136,6 +127,7 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-gatsby-cloud`,
+    `gatsby-plugin-fontawesome-css`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
