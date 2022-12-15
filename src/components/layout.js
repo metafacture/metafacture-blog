@@ -47,15 +47,15 @@ const Layout = ({ location, title, children  }) => {
       <a href="http://www.metafacture.org">Metafacture.org</a>
       {` | `}
       <a href={`https://openbiblio.social/@${social?.mastodon || ``}`}>
-        Mastodon <FontAwesomeIcon icon={faMastodon} style={{ color: `#3088d4`}}/>
+        Mastodon <FontAwesomeIcon icon={faMastodon} size="1x" style={{ color: `#3088d4`}}/>
       </a>
       {` | `}
       <a href={`https://twitter.com/${social?.twitter || ``}`}>
-        Twitter <FontAwesomeIcon icon={faTwitter}/>
+        Twitter <FontAwesomeIcon size="1x" icon={faTwitter}/>
       </a>
       {` | `}
       <a href={`https://www.github.com/${social?.github || ``}`}>
-        GitHub <FontAwesomeIcon icon={faGithub} style={{ color: `#000`}}/>
+        GitHub <FontAwesomeIcon icon={faGithub} size="1x" style={{ color: `#000`}}/>
       </a>
       {` | `}
       <a href="/rss.xml">Feed</a>

@@ -40,7 +40,6 @@ const Bio = () => {
       <StaticImage
         className="bio-avatar"
         layout="fixed"
-        formats={["AUTO", "WEBP", "AVIF"]}
         src="../images/metafacture-logo.png"
         width={50}
         height={50}
@@ -62,7 +61,7 @@ const Bio = () => {
               color: `#3088d4`,
               boxShadow: `none`,
             }}>
-            <FontAwesomeIcon icon={faMastodon}/>
+            <FontAwesomeIcon size="1x" icon={faMastodon}/>
           </a>
           <a href={`https://twitter.com/${social?.twitter || ``}`}
              style={{
@@ -70,7 +69,7 @@ const Bio = () => {
               padding: `0em 0.2em`,
               boxShadow: `none`,
             }}>
-            <FontAwesomeIcon icon={faTwitter}/>
+            <FontAwesomeIcon size="1x" icon={faTwitter}/>
           </a>
           <a href={`https://www.github.com/${social?.github || ``}`}
              style={{
@@ -79,7 +78,7 @@ const Bio = () => {
               color: `#000`,
               boxShadow: `none`,
             }}>
-          <FontAwesomeIcon icon={faGithub}/>
+          <FontAwesomeIcon size="1x" icon={faGithub}/>
           </a>
         </p>
        </div>
