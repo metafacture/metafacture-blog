@@ -45,6 +45,18 @@ gatsby develop
 
 The site is now running at `http://localhost:8000`!
 
+You can also use Docker compose: 
+
+    $ docker compose up
+
+to spin up a docker container as configured in `Dockerfile.dev`. Inside the container, the web server is running in development mode. The build is accessible on the host via port mapping at `http://localhost:8000/`.
+
+Your project folder will be mounted into the container, with exceptions defined in `.dockerignore`. Fast refresh aka hot reloading is kept so changes to the source files should affect the generated static sites instantly.
+
+If you added packages with `npm i <package_name>` make sure to rebuild the container with `docker compose up --build --force-recreate`.
+
+Be sure to have either [Docker Desktop](https://docs.docker.com/desktop/) or [Docker Engine](https://docs.docker.com/engine/) and [Docker Compose](https://docs.docker.com/compose/) installed.
+
 ## Build
 
 To create a production build and output the built static files into the public directory, run:
