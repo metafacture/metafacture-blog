@@ -1,0 +1,5 @@
+.cache
+.git
+.github
+node_modules
+.vscode
