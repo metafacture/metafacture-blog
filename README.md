@@ -57,6 +57,10 @@ If you added packages with `npm i <package_name>` make sure to rebuild the conta
 
 Be sure to have either [Docker Desktop](https://docs.docker.com/desktop/) or [Docker Engine](https://docs.docker.com/engine/) and [Docker Compose](https://docs.docker.com/compose/) installed.
 
+Depending on your Docker setup you may have to use `sudo` with your Docker commands. Please see the [post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/) for further information.
+
+Be aware of the [differences](https://docs.docker.com/compose/compose-v2/) between `docker compose` (Compose V2) and `docker-compose` (Compose V1), the first is expected to be a drop-in replacement for the latter.
+
 ## Build
 
 To create a production build and output the built static files into the public directory, run:
