@@ -8,7 +8,7 @@ authors: [{lastname: "Christoph",
 
 *Preamble*
 
-This post describes the new developments in `metafacture-core release 5.4.0` since the [release
+This post describes the new developments in `metafacture-core release 5.5.0` since the [release
 of metafacture-core-5.4.0](https://blog.metafacture.org/metafacture-core-5.4.0/) in September 2022.
 
 ## Table of Contents
