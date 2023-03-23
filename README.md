@@ -77,3 +77,7 @@ gatsby serve
 ```
 
 Once this starts, you can view your site at http://localhost:9000.
+
+## Deployment
+
+If you need to serve this blog from other than root, set `pathPrefix: ""` in `gatsby-config.js` and insert the right prefix.
