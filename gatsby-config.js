@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/metafacture-blog",
   siteMetadata: {
     title: `Metafacture Blog`,
     author: {
