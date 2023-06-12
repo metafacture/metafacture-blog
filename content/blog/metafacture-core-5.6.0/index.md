@@ -24,7 +24,7 @@ This post describes the new developments in `metafacture-core release 5.6.0` sin
 - CSV: Add CsvEncoder [#483](https://github.com/metafacture/metafacture-core/issues/483)
 - HTTP: Emit combined text for mixed content in HtmlDecoder [#477](https://github.com/metafacture/metafacture-core/pull/477)
 
-Have a look at [flux-commands](https://github.com/metafacture/metafacture-documentation/blob/master/flux-commands.md) how to use these features.
+Have a look at the [flux-commands](https://github.com/metafacture/metafacture-documentation/blob/master/flux-commands.md) how to use these features: [encode-csv](https://github.com/metafacture/metafacture-documentation/blob/master/flux-commands.md#encode-csv) and [decode-html](https://github.com/metafacture/metafacture-documentation/blob/master/flux-commands.md#decode-html).
 
 ### Bug fixes
 
