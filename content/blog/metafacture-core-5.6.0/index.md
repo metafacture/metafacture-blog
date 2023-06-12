@@ -1,6 +1,6 @@
 ---
 title: Metafacture-core release 5.6.0
-date: "2023-05-25T12:36:03.2300Z"
+date: "2023-06-06T12:36:03.2300Z"
 description: "This is about changes coming with the metafacture-core release 5.6.0"
 authors: [{lastname: "Christoph",
            firstname: "Pascal"}]
