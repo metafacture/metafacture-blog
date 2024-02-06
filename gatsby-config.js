@@ -8,7 +8,6 @@ module.exports = {
     siteUrl: `https://blog.metafacture.org/`,
     social: {
       mastodon: `metafacture`,
-      twitter: `metafacture`,
       github: `metafacture`,
     },
   },

@@ -2,9 +2,9 @@ import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faTwitter, faMastodon } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faMastodon } from '@fortawesome/free-brands-svg-icons'
 
-const Layout = ({ location, title, children  }) => {
+const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
   let header
@@ -15,7 +15,6 @@ const Layout = ({ location, title, children  }) => {
         siteMetadata {
           social {
             mastodon
-            twitter
             github
           }
         }
@@ -47,15 +46,11 @@ const Layout = ({ location, title, children  }) => {
       <a href="http://www.metafacture.org">Metafacture.org</a>
       {` | `}
       <a href={`https://openbiblio.social/@${social?.mastodon || ``}`}>
-        Mastodon <FontAwesomeIcon icon={faMastodon} size="1x" style={{ color: `#3088d4`}}/>
-      </a>
-      {` | `}
-      <a href={`https://twitter.com/${social?.twitter || ``}`}>
-        Twitter <FontAwesomeIcon size="1x" icon={faTwitter}/>
+        Mastodon <FontAwesomeIcon icon={faMastodon} size="1x" style={{ color: `#3088d4` }} />
       </a>
       {` | `}
       <a href={`https://www.github.com/${social?.github || ``}`}>
-        GitHub <FontAwesomeIcon icon={faGithub} size="1x" style={{ color: `#000`}}/>
+        GitHub <FontAwesomeIcon icon={faGithub} size="1x" style={{ color: `#000` }} />
       </a>
       {` | `}
       <a href="/rss.xml">Feed</a>

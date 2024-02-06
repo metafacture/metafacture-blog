@@ -89,7 +89,6 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
 
     type Social {
-      twitter: String
       mastodon: String
     }
 
