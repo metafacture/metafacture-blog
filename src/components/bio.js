@@ -9,7 +9,7 @@ import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faTwitter, faMastodon } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faMastodon } from '@fortawesome/free-brands-svg-icons'
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -21,7 +21,6 @@ const Bio = () => {
           }
           social {
             mastodon
-            twitter
             github
           }
           description
@@ -36,7 +35,7 @@ const Bio = () => {
   const social = data.site.siteMetadata?.social
 
   return (
-    <div  className="bio">
+    <div className="bio">
       <StaticImage
         className="bio-avatar"
         layout="fixed"
@@ -47,41 +46,33 @@ const Bio = () => {
         alt="Metafacture ant"
       />
       {author?.name && (
-       <div>
-        <p>
-          {description}
-          {` `}
-          This blog is maintained by <strong>{author.name}</strong>.
-        </p>
-        <p>
-          <a href={`https://openbiblio.social/@${social?.mastodon || ``}`}
-             style={{
-              fontSize: `1.75em`,
-              padding: `0em 0.2em`,
-              color: `#3088d4`,
-              boxShadow: `none`,
-            }}>
-            <FontAwesomeIcon size="1x" icon={faMastodon}/>
-          </a>
-          <a href={`https://twitter.com/${social?.twitter || ``}`}
-             style={{
-              fontSize: `1.75em`,
-              padding: `0em 0.2em`,
-              boxShadow: `none`,
-            }}>
-            <FontAwesomeIcon size="1x" icon={faTwitter}/>
-          </a>
-          <a href={`https://www.github.com/${social?.github || ``}`}
-             style={{
-              fontSize: `1.75em`,
-              padding: `0em 0.2em`,
-              color: `#000`,
-              boxShadow: `none`,
-            }}>
-          <FontAwesomeIcon size="1x" icon={faGithub}/>
-          </a>
-        </p>
-       </div>
+        <div>
+          <p>
+            {description}
+            {` `}
+            This blog is maintained by <strong>{author.name}</strong>.
+          </p>
+          <p>
+            <a href={`https://openbiblio.social/@${social?.mastodon || ``}`}
+              style={{
+                fontSize: `1.75em`,
+                padding: `0em 0.2em`,
+                color: `#3088d4`,
+                boxShadow: `none`,
+              }}>
+              <FontAwesomeIcon size="1x" icon={faMastodon} />
+            </a>
+            <a href={`https://www.github.com/${social?.github || ``}`}
+              style={{
+                fontSize: `1.75em`,
+                padding: `0em 0.2em`,
+                color: `#000`,
+                boxShadow: `none`,
+              }}>
+              <FontAwesomeIcon size="1x" icon={faGithub} />
+            </a>
+          </p>
+        </div>
       )}
     </div>
   )
