@@ -9,7 +9,7 @@ import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faMastodon } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faMastodon, faDiscourse } from '@fortawesome/free-brands-svg-icons'
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -22,6 +22,7 @@ const Bio = () => {
           social {
             mastodon
             github
+            discourse
           }
           description
         }
@@ -35,7 +36,7 @@ const Bio = () => {
   const social = data.site.siteMetadata?.social
 
   return (
-    <div className="bio">
+    <div  className="bio">
       <StaticImage
         className="bio-avatar"
         layout="fixed"
@@ -70,6 +71,15 @@ const Bio = () => {
                 boxShadow: `none`,
               }}>
               <FontAwesomeIcon size="1x" icon={faGithub} />
+            </a>
+            <a href={`${social.discourse}`}
+              style={{
+                fontSize: `1.75em`,
+                padding: `0em 0.2em`,
+                color: `#000`,
+                boxShadow: `none`,
+              }}>
+              <FontAwesomeIcon size="1x" icon={faDiscourse} />
             </a>
           </p>
         </div>

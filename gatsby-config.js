@@ -9,6 +9,7 @@ module.exports = {
     social: {
       mastodon: `metafacture`,
       github: `metafacture`,
+      discourse: "https://metadaten.community/c/software-und-tools/metafacture/8"
     },
   },
   plugins: [
