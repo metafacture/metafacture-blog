@@ -9,21 +9,21 @@ authors: [{lastname: "Christoph",
 
 *Preamble*
 
-Most remarkable is certainly the switch to `Java 11`, hence the new Major
+Most remarkable is certainly the switch to `Java 11`, hence the new major
 versions.
 
 This post describes the new developments coming in:
 
 a) [`metafacture-core release
     6.0.0`](https://central.sonatype.com/namespace/org.metafacture) since the [release of
- metafacture-core-5.7.0](https://blog.metafacture.org/metafacture-5.7.0/) in November 2023.
+ metafacture-core 5.7.0](https://blog.metafacture.org/metafacture-5.7.0/) in November 2023.
 
-b) [`metafacture-fix-1.0.0`](https://github.com/metafacture/metafacture-fix/releases/tag/1.0.0).
+b) [`metafacture-fix 1.0.0`](https://github.com/metafacture/metafacture-fix/releases/tag/1.0.0).
     (metafacture-fix is ["an alternative to configuring data transformations with
-    Metamorph. Inspired by Catmandu Fix"](https://github.com/metafacture/metafacture-fix)).
+    Metamorph, inspired by Catmandu Fix"](https://github.com/metafacture/metafacture-fix)).
 
-c)  `metafacture-playground-1.0.0`.
-    (metafacture-playground is ["a web application to play around with Metafactures languages Fix, Flux and Morph inspired by the JSON-LD Playground"](https://github.com/metafacture/metafacture-playground/)).
+c) `metafacture-playground 1.0.0`.
+    (metafacture-playground is ["a web application to play around with Metafacture's languages Fix, Flux and Morph, inspired by the JSON-LD Playground"](https://github.com/metafacture/metafacture-playground/)).
 
 ## Table of Contents
 
@@ -37,22 +37,22 @@ c)  `metafacture-playground-1.0.0`.
 - IO: Open gzip compressed content from HTTP [#511](https://github.com/metafacture/metafacture-core/issues/511)
 
 ### Bug fixes
-- IO:  Fix misconception of "Content-Encoding" [#513](https://github.com/metafacture/metafacture-core/issues/513)
+- IO: Fix misconception of "Content-Encoding" [#513](https://github.com/metafacture/metafacture-core/issues/513)
 - IO: Close resources [#514](https://github.com/metafacture/metafacture-core/issues/514)
 
 ### Others
 - Provide examples for every flux-command [#488](https://github.com/metafacture/metafacture-core/issues/488)
 - Upgrade Gradle wrapper [#520](https://github.com/metafacture/metafacture-core/issues/520)
-- Switch to Java version 11 [#518](https://github.com/metafacture/metafacture-core/issues518)
+- Switch to Java version 11 [#518](https://github.com/metafacture/metafacture-core/issues/518)
 
 ## metafacture-fix
 
 ### New Features
 
 - Add extension snippets for all do binds [#302](https://github.com/metafacture/metafacture-fix/issues/302)
-- Upgrade Gradle wrapper [#283](https://github.com/metafacture/metafacture-fix/issues/302)
-- Switch to Java 11 [#343](https://github.com/metafacture/metafacture-fix/issues/302)
-- Add links to playground for several Fixes [#339](https://github.com/metafacture/metafacture-fix/issues/302)
+- Upgrade Gradle wrapper [#283](https://github.com/metafacture/metafacture-fix/issues/283)
+- Switch to Java 11 [#343](https://github.com/metafacture/metafacture-fix/issues/343)
+- Add links to playground for several Fixes [#339](https://github.com/metafacture/metafacture-fix/issues/339)
 
 ### Bug fixes
 
@@ -62,11 +62,11 @@ c)  `metafacture-playground-1.0.0`.
 
 - Update metafacture-core dependency to its latest release (6.0.0)
 
-## matafacture-playground
+## metafacture-playground
 
 ### New Features
 
-- Clear message and result when process [#126](https://github.com/metafacture/metafacture-playground/issues/126)
+- Clear message and result when processing [#126](https://github.com/metafacture/metafacture-playground/issues/126)
 
 ### Bug fixes
 
