@@ -23,7 +23,7 @@ b) [`metafacture-fix 1.0.0`](https://github.com/metafacture/metafacture-fix/rele
     Metamorph, inspired by Catmandu Fix"](https://github.com/metafacture/metafacture-fix)).
 
 c) `metafacture-playground 1.0.0`.
-    (metafacture-playground is ["a web application to play around with Metafacture's languages Fix, Flux and Morph, inspired by the JSON-LD Playground"](https://github.com/metafacture/metafacture-playground/)).
+    (metafacture-playground is ["a web application to play around with Metafacture's languages Fix, Flux and Morph"](https://github.com/metafacture/metafacture-playground/)).
 
 ## Table of Contents
 
