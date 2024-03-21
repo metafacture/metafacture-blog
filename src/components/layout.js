@@ -2,7 +2,7 @@ import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faMastodon } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faMastodon, faDiscourse } from '@fortawesome/free-brands-svg-icons'
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -16,6 +16,7 @@ const Layout = ({ location, title, children }) => {
           social {
             mastodon
             github
+            discourse
           }
         }
       }
@@ -51,6 +52,10 @@ const Layout = ({ location, title, children }) => {
       {` | `}
       <a href={`https://www.github.com/${social?.github || ``}`}>
         GitHub <FontAwesomeIcon icon={faGithub} size="1x" style={{ color: `#000` }} />
+      </a>
+      {` | `}
+      <a href={`${social?.discourse || ``}`}>
+        Discourse <FontAwesomeIcon icon={faDiscourse} size="1x" style={{ color: `#000` }} />
       </a>
       {` | `}
       <a href="/rss.xml">Feed</a>
