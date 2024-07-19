@@ -9,7 +9,7 @@ authors: [{lastname: "Christoph",
 
 *Preamble*
 
-As the [release of metafacture-core 6.1.0 introduces a bug](https://github.com/metafacture/metafacture-core/issues/540) and as the consecutive [release of [metafacture-core 6.1.1](https://github.com/metafacture/metafacture-core/issues/546) also had a bug posts about these releases are ommitted.
+As the [release of metafacture-core 6.1.0 introduces a bug](https://github.com/metafacture/metafacture-core/issues/540) and as the consecutive release of [metafacture-core 6.1.1](https://github.com/metafacture/metafacture-core/issues/546) also had a bug, posts about these releases are ommitted.
 
 This post describes the new developments coming in:
 
@@ -36,7 +36,7 @@ c) `metafacture-playground 1.1.2`.
 
 ### Bug fixes
 - XML/biblio: Fix creation of MARC XML leader [#454](https://github.com/metafacture/metafacture-core/issues/454),[#524](https://github.com/metafacture/metafacture-core/issues/524),[#527](https://github.com/metafacture/metafacture-core/issues/527),[#528](https://github.com/metafacture/metafacture-core/issues/538),[#548](https://github.com/metafacture/metafacture-core/issues/548)
-- XML/biblio: Reset indentation variable when stream is resetted [#525](https://github.com/metafacture/metafacture-core/issues/525)
+- XML/biblio: Reset indentation variable when stream is reset [#525](https://github.com/metafacture/metafacture-core/issues/525)
 
 ### Others
 - Upgrade Gradle wrapper to version 8.8
@@ -58,5 +58,5 @@ c) `metafacture-playground 1.1.2`.
 
 ### Others
 
-- Update metafacture dependencies [#179](https://github.com/metafacture/metafacture-playground/issues//179)
+- Update metafacture dependencies [#179](https://github.com/metafacture/metafacture-playground/issues/179)
 
