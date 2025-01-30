@@ -13,8 +13,7 @@ This will be the last time `metafacture-fix` will be released on its own as it w
 
 This post describes the new developments coming with:
 
-a) [`metafacture-core release
-    6.2.0`](https://central.sonatype.com/namespace/org.metafacture) since the [release of metafacture-core 6.1.2](https://blog.metafacture.org/metafacture-releases_core-6.1.2_fix-1.1.2_playground-1.1.2/#metafacture-core) in July 2024.
+a) [`metafacture-core release 6.2.0`](https://central.sonatype.com/namespace/org.metafacture) since the [release of metafacture-core 6.1.2](https://blog.metafacture.org/metafacture-releases_core-6.1.2_fix-1.1.2_playground-1.1.2/#metafacture-core) in July 2024.
 
 b) [`metafacture-fix 1.2.0`](https://github.com/metafacture/metafacture-fix/releases/tag/1.2.0).
     (metafacture-fix is ["an alternative to configuring data transformations with
