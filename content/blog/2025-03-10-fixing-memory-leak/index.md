@@ -26,7 +26,7 @@ the performance and averted some hanging processes or crashes.
 We also have a monitor tool installed on our servers which checks if processes
 are terminated and restarts those automatically. This happened often after some
 more ETL processes were invoked (the "daily updates").
-It was unclear why these crashes appear but by assigning more RAM and 
+It was unclear why these crashes appeared but by assigning more RAM and 
 (automatically) restarting the whole JVM after crashes the ETL process went
 stable enough.
 
