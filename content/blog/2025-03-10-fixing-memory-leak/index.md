@@ -13,7 +13,7 @@ used uncloseable resources, which would leak memory, [resulting ultimately in a
 
 Affected were all usages of metafacture which instantiate a `Flux` multiple times
 over the lifecycle of one JVM. While this is an obvious statement, we could
-experience the leaking of memory at the earliest of March 2021 as we
+experience the leaking of memory at the earliest since March 2021 when we
 changed how to start our `lobid` ETL processes: back in the early days we invoked
 the ETL by starting a new JVM, run our workflow and terminate the JVM afterwards.
 Coming with the [Webhook in March 2021](https://github.com/hbz/lobid-resources/issues/1159)
