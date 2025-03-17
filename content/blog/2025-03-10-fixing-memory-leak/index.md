@@ -58,7 +58,7 @@ rise and fall of CPU and memory usage. The memory leak is really fixed. 😀
 
 Fixing the memory leak in `metafacture` resolved some issues we've experienced:
 - `lobid-resources`: daily updates sometimes aborted - although this was not such a big thing because our monitor scripts could "heal" the update process automatically (by restarting the app). However, the updates now don't take e.g. 4h (counting from triggering the update until the successful ETL) but 0.45m, which is way faster.
-- `metafacture Playground`: we had some [performance issues](https://github.com/metafacture/metafacture-playground/issues/194) which are now solved
+- `Metafacture Playground`: we had some [performance issues](https://github.com/metafacture/metafacture-playground/issues/194) which are now solved.
 - `RPB`: a situation arised where we could only ever add more memory to our VMs to counteract a crash of cataloguing - always fearing that not too much documents were ETLed before the daily restart of the cataloguing app.
 
 # How to and credits
