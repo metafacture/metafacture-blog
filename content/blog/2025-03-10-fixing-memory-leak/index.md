@@ -23,7 +23,7 @@ was to be deployed, but we soon discovered that restarting [our Play app](https:
 just before the weekly fresh and complete ETL of > 24 million documents improved
 the performance and averted some hanging processes or crashes.
 
-We also have a monitor tool installed at our servers who checks if processes
+We also have a monitor tool installed on our servers which checks if processes
 are terminated and restart those automatically. This happened often after some
 more ETL processes were invoked (the "daily updates").
 It was unclear why these crashes appear but by assigning more RAM and 
