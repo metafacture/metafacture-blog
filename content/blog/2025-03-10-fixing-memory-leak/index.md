@@ -32,7 +32,7 @@ stable enough.
 
 Since 2025 we started the [Rheinland-Pfälzische Bibliografie (RPB)](https://github.com/hbz/rpb/).
 Here, ETL processes are triggered _every time_ a record is changed or created.
-This resulted very fast in an
+This resulted very quickly in an
 [OutOfMemoryError](https://github.com/hbz/lobid-resources/issues/2121#issuecomment-2631355294).
 
 Using Intellij IDEA we can easily produce a picture which shows the ever
