@@ -24,7 +24,7 @@ just before the weekly fresh and complete ETL of > 24 million documents improved
 the performance and averted some hanging processes or crashes.
 
 We also have a monitor tool installed on our servers which checks if processes
-are terminated and restart those automatically. This happened often after some
+are terminated and restarts those automatically. This happened often after some
 more ETL processes were invoked (the "daily updates").
 It was unclear why these crashes appear but by assigning more RAM and 
 (automatically) restarting the whole JVM after crashes the ETL process went
