@@ -65,7 +65,7 @@ Fixing the memory leak in `metafacture` resolved some issues we've experienced:
 It is _one_ thing to discover a memory leak, but another thing to
 determine where the source of that leak _exactly_ is.
 I've to thank e.g. [Chris Braithwaite for his excellent blog post concerning Java memory leaks](https://medium.com/@chrisbrat_17048/java-memory-leak-investigation-8add1314e33b) to gain a bit more of the background of what a Java memory leak is.
-Very useful for me was the build-in profiler in Intellij IDEA. It not only
+Very useful for me was the built-in profiler in Intellij IDEA. It not only
 has helped to plot the graphs (see above), to see at a glance that there indeed is a
 memory leak, but can also capture memory snapshots and profile the CPU usage,
 to find the problematic classes. It would show something like this:
