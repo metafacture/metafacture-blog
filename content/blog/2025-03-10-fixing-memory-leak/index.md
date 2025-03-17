@@ -7,7 +7,7 @@ authors: [{lastname: "Christoph",
 ---
 
 Some `metafacture-core` classes (e.g. the ubiquitous [`FileMap`](https://github.com/metafacture/metafacture-core/blob/master/metamorph/src/main/java/org/metafacture/metamorph/maps/FileMap.java) (which is invoked when loading a file as a table (like a CSV) in your ETL scripts)
-used uncloseable resources, which would leak memory, [resulting ultimatley in a
+used uncloseable resources, which would leak memory, [resulting ultimately in a
 "OutOfMemoryError: Java heap space"](https://github.com/metafacture/metafacture-core/issues/666) since at least 2013 (back then the class was
  called `MapFile`).
 
