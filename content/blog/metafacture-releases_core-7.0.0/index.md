@@ -31,6 +31,6 @@ For release notes with downloadable CLI runner, see [Github release of metafactu
 ## Others
 - Runner: Update examples by adding metafacture-fix versions of existing examples [#589](https://github.com/metafacture/metafacture-core/issues/589)
 - Runner: Prevent multiple SLF4J bindings warning [#649](https://github.com/metafacture/metafacture-core/issues/649)
-- io, json and metafix: Consolidate dependency versions [#670](https://github.com/metafacture/metafacture-core/pull/670)
+- IO, JSON and Metafix: Consolidate dependency versions [#670](https://github.com/metafacture/metafacture-core/pull/670)
 
-[Full change log](https://github.com/metafacture/metafacture-core/compare/metafacture-core-6.2.0...metafacture-core-7.0.0)
+[Full change log](https://github.com/metafacture/metafacture-core/compare/metafacture-core-6.2.0...metafacture-core-7.0.0)(note that due to the merge of `metafix` into `metafacture-core` there are more than 1k commits)
