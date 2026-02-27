@@ -21,7 +21,7 @@ For release notes with downloadable CLI runner, see [GitHub release of metafactu
 New Features
 
 * MARC: Optionally escape Unicode in `MarcXmlEncoder` [#710](https://github.com/metafacture/metafacture-core/issues/710)
-* SRU: New SRU opener [#682](https://github.com/metafacture/metafacture-core/issues/682)
+* Biblio: New SRU opener [#682](https://github.com/metafacture/metafacture-core/issues/682)
 * Metafix: Add function `utf8_normalizer` [#741](https://github.com/metafacture/metafacture-core/issues/741)
 * Metafix: Add function `html_to_text` [#740](https://github.com/metafacture/metafacture-core/issues/740)
 
