@@ -1,6 +1,6 @@
 ---
 title: "Metafacture release: Core 8.0.0"
-date: "2025-02-27T13:15:03.2300Z"
+date: "2026-03-02"
 description: "Changes coming with the release of metafacture-core 8.0.0"
 authors: [{lastname: "Bülte",
            firstname: "Tobias"}]
@@ -18,21 +18,21 @@ For release notes with downloadable CLI runner, see [GitHub release of metafactu
 # this will be replaced by the toc
 ```
 
-New Features
+## New Features
 
 * MARC: Optionally escape Unicode in `MarcXmlEncoder` [#710](https://github.com/metafacture/metafacture-core/issues/710)
 * Biblio: New SRU opener [#682](https://github.com/metafacture/metafacture-core/issues/682)
 * Metafix: Add function `utf8_normalizer` [#741](https://github.com/metafacture/metafacture-core/issues/741)
 * Metafix: Add function `html_to_text` [#740](https://github.com/metafacture/metafacture-core/issues/740)
 
-Bug fixes
+## Bug fixes
 
 * Metafix: Enforce unique result in  `list-fix-paths` [#687](https://github.com/metafacture/metafacture-core/issues/687)
 * IO: Fix `RecordReader` to reset buffer on exception [#717](https://github.com/metafacture/metafacture-core/issues/717)
 * Runner: Fix logging [#733](https://github.com/metafacture/metafacture-core/issues/733)
 * Runner: Fix broken runner examples [#742](https://github.com/metafacture/metafacture-core/issues/742)
 
-Others
+## Others
 
 * **Breaking**: Metafix: Change `set_*` functions to not create intermediate structures [#704](https://github.com/metafacture/metafacture-core/issues/704) (Replace with `add_*` versions to repair!)
 * Simplify Gradle build logic for making releases [#687](https://github.com/metafacture/metafacture-core/issues/687)
