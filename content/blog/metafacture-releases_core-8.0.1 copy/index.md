@@ -16,7 +16,7 @@ We are happy to announce the next major release of Metafacture-Core: 9.0.0
 
 With the new release Metafacture moved to Java 21 which brings a couple of breaking changes.
 Also the CLI handling has been improved by introducing options. The old CLI handling is still being supported
-will be deprecated in an upcoming release. For further info [see the documentation](link to the documentation).
+will be deprecated in an upcoming release. For further information [see the documentation](link to the documentation).
 
 ## What's Changed
 
@@ -29,11 +29,11 @@ New Features
 * Plumbing: `merge-batch-stream`: Make batchsize configurable in Flux [#784](https://github.com/metafacture/metafacture-core/pull/784)
 * Runner: Add Flux CLI options. [#785](https://github.com/metafacture/metafacture-core/pull/785)
 * Metafix: Optionally ignore unreadable files in `FileMap` [#792](https://github.com/metafacture/metafacture-core/pull/792)
-* FLUX:  Provide Flux entrypoint for use as a library function [#746](https://github.com/metafacture/metafacture-core/pull/746)
+* Flux:  Provide Flux entrypoint for use as a library function [#746](https://github.com/metafacture/metafacture-core/pull/746)
 
 Bug fixes
 * Metafix: Skip empty strings when using capitalize [#757](https://github.com/metafacture/metafacture-core/pull/757)
-* csv: Decode multiline CSV [#770](https://github.com/metafacture/metafacture-core/pull/770)
+* CSV: Decode multiline CSV [#770](https://github.com/metafacture/metafacture-core/pull/770)
 * Runner: Allow whitespace in Flux runner arguments. by @blackwinter in https://github.com/metafacture/metafacture-core/pull/790
 
 Others
