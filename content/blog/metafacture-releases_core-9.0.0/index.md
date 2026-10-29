@@ -15,7 +15,7 @@ For release notes with downloadable CLI runner, see [GitHub release of metafactu
 We are happy to announce the next major release of metafacture-core: 9.0.0
 
 With the new release Metafacture moved to Java 21 which brings a couple of breaking changes.
-Also the CLI handling has been improved by introducing options. The old CLI handling is still being supported, but will be deprecated in an upcoming release. For further information [see the documentation](link to the documentation).
+Also the CLI handling has been improved by introducing options. The old CLI handling is still being supported, but will be deprecated in an upcoming release. For further information [see the documentation](https://metafacture.org/metafacture-documentation/docs/flux/Flux-User-Guide.html#run-a-flux-file).
 
 ## Table of Contents
 
@@ -25,12 +25,12 @@ Also the CLI handling has been improved by introducing options. The old CLI hand
 
 ## New Features
 
-* **Breaking**: PICA: Add true picaxml handler, `PicaXmlHandler` now supports only picaxml, for ppxml use `PpXmlHandler` [#761](https://github.com/metafacture/metafacture-core/pull/761)
+* **Breaking**: PICA: Add true picaxml handler, `PicaXmlHandler` now supports only [PICA XML](https://format.gbv.de/pica/xml), for  [PPXML](https://format.gbv.de/pica/ppxml) use `PpXmlHandler` [#761](https://github.com/metafacture/metafacture-core/pull/761)
 * Monitoring: Add setter for log prefix in `ObjectLogger` and `StreamLogger` [#771](https://github.com/metafacture/metafacture-core/pull/771)
 * Monitoring: Add setter for log level in object and stream (batch) loggers [#772](https://github.com/metafacture/metafacture-core/pull/772)
 * Metafix: Optionally specify limit for number of exceptions in Metafix [#773](https://github.com/metafacture/metafacture-core/pull/773)
 * Plumbing: `merge-batch-stream`: Make batchsize configurable in Flux [#784](https://github.com/metafacture/metafacture-core/pull/784)
-* **Breaking**: Runner: Add Flux CLI options. Flux.main() now closes this can be relevant for Java applications [#785](https://github.com/metafacture/metafacture-core/pull/785)
+* **Breaking**: Runner: Add Flux CLI options. `Flux.main()` now terminates the process even on success. Java applications should use the new Flux API instead (see below) [#785](https://github.com/metafacture/metafacture-core/pull/785)
 * Metafix: Optionally ignore unreadable files in `FileMap` [#792](https://github.com/metafacture/metafacture-core/pull/792)
 * Flux:  Provide Flux entrypoint for use as a library function [#746](https://github.com/metafacture/metafacture-core/pull/746)
 
