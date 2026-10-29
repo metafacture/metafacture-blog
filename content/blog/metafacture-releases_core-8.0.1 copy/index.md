@@ -18,9 +18,13 @@ With the new release Metafacture moved to Java 21 which brings a couple of break
 Also the CLI handling has been improved by introducing options. The old CLI handling is still being supported
 will be deprecated in an upcoming release. For further information [see the documentation](link to the documentation).
 
-## What's Changed
+## Table of Contents
 
-New Features
+```toc
+# this will be replaced by the toc
+```
+
+## New Features
 
 * PICA: **Breaking**: Add true picaxml handler [#761](https://github.com/metafacture/metafacture-core/pull/761)
 * Monitoring: Add setter for log prefix in `ObjectLogger` and `StreamLogger` [#771](https://github.com/metafacture/metafacture-core/pull/771)
@@ -31,12 +35,13 @@ New Features
 * Metafix: Optionally ignore unreadable files in `FileMap` [#792](https://github.com/metafacture/metafacture-core/pull/792)
 * Flux:  Provide Flux entrypoint for use as a library function [#746](https://github.com/metafacture/metafacture-core/pull/746)
 
-Bug fixes
+## Bug fixes
+
 * Metafix: Skip empty strings when using capitalize [#757](https://github.com/metafacture/metafacture-core/pull/757)
 * CSV: Decode multiline CSV [#770](https://github.com/metafacture/metafacture-core/pull/770)
 * Runner: Allow whitespace in Flux runner arguments. by @blackwinter in https://github.com/metafacture/metafacture-core/pull/790
 
-Others
+## Others
 
 * Upgrade Gradle wrapper to version 9.4.0. [#746](https://github.com/metafacture/metafacture-core/pull/746)
 * **Breaking**:  Upgrade Log4j dependency to version 2.x. [#748](https://github.com/metafacture/metafacture-core/pull/748)
@@ -51,21 +56,6 @@ Others
 * Flux: Document how to open stdin [#788](https://github.com/metafacture/metafacture-core/pull/788)
 * Improve documentation for filter-strings [#789](https://github.com/metafacture/metafacture-core/pull/789)
 * **Breaking**: Update all dependency with current non major releases [#759](https://github.com/metafacture/metafacture-core/pull/795)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## What's Changed
 
 
 **Full Changelog**: https://github.com/metafacture/metafacture-core/compare/metafacture-core-8.0.1...metafacture-core-9.0.0
