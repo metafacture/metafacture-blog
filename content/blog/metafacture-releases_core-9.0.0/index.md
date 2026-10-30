@@ -52,7 +52,7 @@ Also the CLI handling has been improved by introducing options. The old CLI hand
 * Let `HelpPrinter` output options under their original setter name [#787](https://github.com/metafacture/metafacture-core/pull/787)
 * Flux: Document how to open stdin [#788](https://github.com/metafacture/metafacture-core/pull/788)
 * Improve documentation for `filter-strings` [#789](https://github.com/metafacture/metafacture-core/pull/789)
-* Update all dependency with current non major releases [#759](https://github.com/metafacture/metafacture-core/pull/795)
+* Update some dependencies with current non major releases [#759](https://github.com/metafacture/metafacture-core/pull/795)
 * **Breaking**: Metafix API: Deprecated Fix command enums have been removed. [c8fbd8c](https://github.com/metafacture/metafacture-core/commit/c8fbd8c)
 
 **Full Changelog**: https://github.com/metafacture/metafacture-core/compare/metafacture-core-8.0.1...metafacture-core-9.0.0
