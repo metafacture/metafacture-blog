@@ -44,7 +44,6 @@ Also the CLI handling has been improved by introducing options. The old CLI hand
 
 * **Breaking**:  Upgrade Log4j dependency to version 2.x [#748](https://github.com/metafacture/metafacture-core/pull/748)
 * Metafix: Add best practice for maps and macros [#760](https://github.com/metafacture/metafacture-core/pull/760)
-* Adjust flux example link labelling [#753](https://github.com/metafacture/metafacture-core/pull/753)
 * Adjust Flux example link labelling [#753](https://github.com/metafacture/metafacture-core/pull/753)
 * Provide Java 21 forward compatibility [#779](https://github.com/metafacture/metafacture-core/pull/779)
 * **Breaking**:  Raise the minimum Java version to 21 [#781](https://github.com/metafacture/metafacture-core/pull/781)
